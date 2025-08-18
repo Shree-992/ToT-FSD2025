@@ -1,0 +1,58 @@
+/* h1{
+    background-color: brown;
+}
+
+p {
+  text-align: center;
+  color: red;
+} */
+
+/* #p1{
+    background-color: blueviolet;
+}
+
+.Paragraph{
+    background-color: cadetblue;
+    color: black;
+    font-size: xx-large;
+
+} */
+
+/* div p{
+    background-color: yellow;
+} */
+
+/* div >p{
+    background-color: yellow;
+} */
+
+/* adjacent sibling */
+/* div +p{
+    background-color: yellow;
+}
+
+div ~p{
+    background-color: yellow;
+} 
+
+pseudo classes and elements
+
+ P:hover{
+    font-size: xx-large;
+    background-color: chocolate;
+    color: white;
+} */
+    p::before{
+        content: "Welcome to abes";
+    }
+    p::after{
+        content: "we have successfully completeed this program";
+        background-color: aquamarine;
+        color: white;
+        font-size: xx-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    p::selection{
+        background-color: blue;
+    }
