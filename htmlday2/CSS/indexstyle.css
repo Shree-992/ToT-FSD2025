@@ -42,7 +42,7 @@ pseudo classes and elements
     background-color: chocolate;
     color: white;
 } */
-    p::before{
+    /* p::before{
         content: "Welcome to abes";
     }
     p::after{
@@ -55,4 +55,4 @@ pseudo classes and elements
 
     p::selection{
         background-color: blue;
-    }
+    } */
