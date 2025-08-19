@@ -11,8 +11,8 @@
     /* justify-content: flex-start; */
     justify-content: flex-start;
     justify-content: space-evenly;
-    align-content: center;
-    align-items: ;
+    align-content: center; 
+   
 
 }
 
@@ -36,6 +36,7 @@ height: 150px;
 width: 150px;
 border: 1px dotted green;
 background-color: brown;
+order: 1;
 
 
 }
@@ -44,6 +45,7 @@ height: 150px;
 width: 150px;
 border: 1px dotted orange;
 background-color: burlywood;
+order: 2;
 
 
 }
