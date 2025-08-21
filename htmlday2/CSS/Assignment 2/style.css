@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f0f2f5;
+  color: #111;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.logo span {
+  font-weight: 300;
+  color: gray;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #5a38f3;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text .intro {
+  color: #5a38f3;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.hero-text h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hero-text h2 span {
+  font-weight: 600;
+  color: #000;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: 0.3s ease;
+}
+
+.about {
+  background: #f14668;
+  color: #fff;
+}
+
+.about:hover {
+  background: #d93558;
+}
+
+.works {
+  background: #5a38f3;
+  color: #fff;
+}
+
+.works:hover {
+  background: #4326d9;
+}
+
+/* Hero Image */
+.hero-image {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 12px;
+}
+
+.hero-image blockquote {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: gray;
+}
+
+footer .socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.rights {
+  margin-top: 10px;
+  font-size: 12px;
+}
