@@ -21,10 +21,15 @@ const employee={
 // console.log(employee.ename);
 // console.log(employee);
 // console.log(employee.planguage[0].lang2);
-employee.company="Infosys";
+// employee.company="Infosys";
+// console.log(employee);
+
+// employee.planguage[1].database1="Mongodb";
+// console.log(employee);
+
+delete employee.ename;
 console.log(employee);
 
-employee.planguage[1].database1="Mongodb";
-console.log(employee);
+
 
 
