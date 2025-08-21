@@ -14,7 +14,6 @@ body {
   box-shadow: 0 8px 25px rgba(0,0,0,0.1);
 }
 
-/* Navbar */
 header {
   display: flex;
   justify-content: space-between;
@@ -42,8 +41,7 @@ nav a:hover {
   color: #5a38f3;
 }
 
-/* Hero Section */
-.hero {
+.profile {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,34 +49,33 @@ nav a:hover {
   gap: 40px;
 }
 
-.hero-text {
+.profile-text {
   flex: 1;
 }
 
-.hero-text .intro {
+.profile-text .intro {
   color: #5a38f3;
   font-weight: 600;
   font-size: 14px;
   margin-bottom: 10px;
 }
 
-.hero-text h1 {
+.profile-text h1 {
   font-size: 36px;
   font-weight: 700;
   margin: 10px 0;
 }
 
-.hero-text h2 {
+.profile-text h2 {
   font-size: 20px;
   font-weight: 400;
 }
 
-.hero-text h2 span {
+.profile-text h2 span {
   font-weight: 600;
   color: #000;
 }
 
-/* Buttons */
 .buttons {
   margin-top: 20px;
 }
@@ -111,26 +108,25 @@ nav a:hover {
   background: #4326d9;
 }
 
-/* Hero Image */
-.hero-image {
+.profile-image {
   flex: 1;
   text-align: center;
   position: relative;
 }
 
-.hero-image img {
+.profile-image img {
   width: 300px;
   border-radius: 12px;
 }
 
-.hero-image blockquote {
+.profile-image blockquote {
   margin-top: 15px;
   font-size: 14px;
   color: #555;
   font-style: italic;
 }
 
-/* Footer */
+
 footer {
   margin-top: 50px;
   text-align: center;
